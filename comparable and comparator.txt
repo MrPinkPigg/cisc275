@@ -1,0 +1,6 @@
+Collection/Collections are used for holding groups of objects. Collections havebuilt in sort
+functions that can be overriden. Comparable and Comparator are used for ordering those objects.
+Comparable is the means by which objects are naturally ordered in their set/list/whatever.
+Comparators are for when you want to order them in some other way according to some other
+criteria. As for "where they are," comparables and comparators are both their own defined
+interfaces that get implemented by the class that is going to use them.
